@@ -6,7 +6,7 @@
     
     
     
-    <<img src="https://ccfprosario.com.ar/wp-content/uploads/odontologo-y-dentista-es-lo-mismo.jpg" alt="alt"/>> 
+    <img src="https://ccfprosario.com.ar/wp-content/uploads/odontologo-y-dentista-es-lo-mismo.jpg" alt="alt"/>
     <br>
     
     <%@ include file="components/bodyFinal.jsp" %>

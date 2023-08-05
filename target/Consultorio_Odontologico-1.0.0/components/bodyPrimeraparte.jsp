@@ -1,8 +1,3 @@
-<%-- 
-    Document   : bodyPrimeraparte
-    Created on : 03/08/2023, 17:35:25
-    Author     : Dardo
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -16,7 +11,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-regular fa-tooth"></i>
                 </div>
@@ -28,7 +23,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="index.jsp">
                     <i class="fas fa-solid fa-bars"></i>
                     <span>Menú</span></a>
             </li>
@@ -49,9 +44,9 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Acciones:</h6>
+                        <h6 class="collapse-header">Acciones</h6>
                         <a class="collapse-item" href="">Ver Odontólogos</a>
-                        <a class="collapse-item" href="altaOdontologo.jsp">Alta Odontólogos</a>
+                        <a class="collapse-item" href="altaOdontologo.jsp">Cargar Odontólogo</a>
                     </div>
                 </div>
             </li>
@@ -64,9 +59,9 @@
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Acciones:</h6>
+                        <h6 class="collapse-header">Acciones</h6>
                         <a class="collapse-item" href="">Ver Pacientes</a>
-                        <a class="collapse-item" href="">Alta Pacientes</a>
+                        <a class="collapse-item" href="">Cargar Paciente</a>
                     </div>
                 </div>
             </li>
@@ -79,11 +74,11 @@
                 </a>
                 <div id="collapseUsers" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner ">
-                        <h6 class="collapse-header">Acciones:</h6>
-                        <a class="collapse-item" href="">Ver Usuarios</a>
-                        <a class="collapse-item" href="altaUsuarios.jsp">Alta Usuarios</a>
+                        <h6 class="collapse-header">Acciones</h6>
+                        <a class="collapse-item" href="SvUsuarios">Ver Usuarios</a>
+                        <a class="collapse-item" href="altaUsuarios.jsp">Cargar Usuario</a>
                     </div>
-                </div>
+                </div> 
             </li>
 
             <!-- Divider -->
@@ -128,20 +123,17 @@
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
+                                    Perfil
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
+                                    Ajustes
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
+                              
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Salir
                                 </a>
                             </div>
                         </li>
@@ -155,8 +147,9 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
+                    <!<!-- ACA ABAJO IBA TODO -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Clinica Odontológica</h1>
+                        <h1 class="h3 mb-0 text-gray-800"></h1>  <!-- ACA DECIA CLINICA ODONTOLOGICA     -->    
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                                class="fas fa-download fa-sm text-white-50"></i> Generar Informe</a>
                     </div>

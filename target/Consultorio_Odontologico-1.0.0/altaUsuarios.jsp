@@ -4,13 +4,15 @@
 <%@ include file="components/header.jsp" %>
 <%@ include file="components/bodyPrimeraparte.jsp" %>
 
-<h1>Alta Usuarios </h1>
-<p>Este es el aparatado para dar de alta los diferentes usuarios del sistema. </p>
 
 
-<form class="user" action="SvUsuarios" method="POST">
-    <div class="form-group row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
+<div class="container ">
+    <h1>Nuevo Usuario </h1>
+    <p>Este es el aparatado para dar de alta los diferentes usuarios al sistema. </p>
+
+    <form class="user" action="SvUsuarios" method="POST">
+    <div class="form-group row ">
+        <div class="col-sm-6 mb-3 mb-sm-0 ">
             <input type="text" class="form-control form-control-user" id="nombreUsu" name="nombreUsu" placeholder="Usuario">
         </div>
         
@@ -30,12 +32,15 @@
     
     
     
-    <button class="btn btn-primary btn-user btn-block" type="submit"> 
+    <button class="btn btn-primary btn-user  col-sm-6 mb-5 " type="submit"> 
         Crear Usuario 
     </button>
-    <hr>
+        
+        <hr class="mb-5">
     
 </form>
+</div>
+
 
 
 <%@ include file="components/bodyFinal.jsp" %>
