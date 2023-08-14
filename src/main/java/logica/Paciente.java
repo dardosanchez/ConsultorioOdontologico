@@ -9,7 +9,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 public class Paciente extends Persona {
-//    private int id_paciente;
+
     private boolean tieneOS;
     private String tipoSangre;
     @OneToOne

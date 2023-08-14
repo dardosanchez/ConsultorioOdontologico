@@ -3,7 +3,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <body id="page-top">
+    
+    
+    <!-- Validacion de Sesion -->
+    
+    <% 
+        HttpSession misession = request.getSession();
+        String usuario = (String) request.getSession().getAttribute("usuario");
+        
+        if(usuario == null){
+        response.sendRedirect("loginError.jsp");
+        } 
 
+    %>
+    
+    
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -114,7 +128,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><%= request.getSession().getAttribute("usuario") %></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>

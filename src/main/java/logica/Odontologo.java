@@ -9,7 +9,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 public class Odontologo extends Persona {
-//    private int id_odontologo;
+
     private String especialidad;
     @OneToMany(mappedBy = "odonto")
     private List<Turno> listaTurnos;

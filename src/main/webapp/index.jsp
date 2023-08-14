@@ -6,7 +6,7 @@
     
     <div class="d-sm-flex align-items-center justify-content-between mb-2">
         <div class="d-block">
-            <h1 class="h3 mb-2 text-gray-800">Consultorio Dr. Dardo Sanchez</h1> <!-- ACA DECIA CLINICA ODONTOLOGICA     -->
+            <h1 class="h3 mb-2 text-gray-800">Consultorio </h1> <!-- ACA DECIA CLINICA ODONTOLOGICA     -->
             <p class="mb-4">A continuacion podra visualizar... </p>
         </div>
     </div>
