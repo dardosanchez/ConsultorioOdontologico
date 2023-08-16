@@ -27,16 +27,7 @@ public class Paciente extends Persona {
         this.unResponsable = unResponsable;
         this.listaTurnos = listaTurnos;
     }
-      
-/*
-    public int getId_paciente() {
-        return id_paciente;
-    }
-
-    public void setId_paciente(int id_paciente) {
-        this.id_paciente = id_paciente;
-    }
-*/
+     
     public boolean isTieneOS() {
         return tieneOS;
     }

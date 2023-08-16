@@ -2,6 +2,7 @@ logica\Odontologo_.class
 logica\Usuario.class
 servlets\SvEditUsuarios.class
 logica\Persona.class
+servlets\SvCerrarSesion.class
 logica\Secretario_.class
 persistencia\UsuarioJpaController.class
 logica\Turno.class
@@ -17,6 +18,7 @@ persistencia\SecretarioJpaController.class
 logica\Odontologo.class
 logica\Responsable_.class
 Enums\Rol.class
+servlets\SvLogin.class
 persistencia\HorarioJpaController.class
 logica\Paciente.class
 logica\Horario.class
@@ -26,8 +28,10 @@ logica\Persona_.class
 servlets\SvUsuarios.class
 logica\Secretario.class
 logica\Horario_.class
+servlets\SvOdontologos.class
 persistencia\PersonaJpaController.class
 persistencia\PacienteJpaController.class
 persistencia\exceptions\NonexistentEntityException.class
 persistencia\TurnoJpaController.class
 logica\Responsable.class
+Enums\Especialidad.class

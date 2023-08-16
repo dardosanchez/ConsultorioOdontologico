@@ -3,6 +3,7 @@ package logica;
 
 import java.util.Date;
 import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
@@ -29,16 +30,15 @@ public class Odontologo extends Persona {
         this.unHorario = unHorario;
     }
 
-    
-/*
-    public int getId_odontologo() {
-        return id_odontologo;
+    public Horario getUnHorario() {
+        return unHorario;
     }
 
-    public void setId_odontologo(int id_odontologo) {
-        this.id_odontologo = id_odontologo;
+    public void setUnHorario(Horario unHorario) {
+        this.unHorario = unHorario;
     }
-*/
+
+    
     public String getEspecialidad() {
         return especialidad;
     }
